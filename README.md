@@ -202,31 +202,6 @@ Examples:
 - Per-scan HTML reports in `reports/`
 - Activity logs in `logs/analysis.log`
 
-## Screenshots Section
-
-Suggested screenshots to add after running the project locally:
-
-- CLI terminal output for `analyze sample_data/sample_iocs.txt phishing_case --vt --abuseipdb`
-- Snippet of a per-scan JSON result file
-- Threat Context Summary section from the HTML report
-- VirusTotal Summary section from the HTML report
-- AbuseIPDB Summary section from the HTML report
-
-## Cybersecurity Skills Demonstrated
-
-- Threat Intelligence
-- IOC Analysis
-- Threat Context Analysis
-- Python Automation
-- Risk Assessment
-- Data Processing
-- Security Reporting
-- SOC Operations
-
-## Resume Bullet
-
-Built a Python-based IOC analysis platform that validates threat indicators, enriches them with VirusTotal and AbuseIPDB reputation data, assigns risk scores, and generates uniquely named JSON, CSV, and executive HTML reports for SOC workflows.
-
 ## Future Enhancements
 
 - Integrate passive DNS and reputation feeds for enrichment
@@ -235,41 +210,10 @@ Built a Python-based IOC analysis platform that validates threat indicators, enr
 - Introduce confidence scoring with analyst feedback loops
 - Add REST API and web dashboard interfaces
 
-## Repository Layout
+## Project Structure
 
-```text
-ioc-analyzer/
-├── .github/
-│   └── workflows/
-│       └── pytest.yml
-├── analyzer/
-│   ├── __init__.py
-│   ├── abuseipdb.py
-│   ├── classifier.py
-│   ├── parser.py
-│   ├── scoring.py
-│   ├── threat_context.py
-│   ├── validator.py
-│   └── virustotal.py
-├── assets/
-│   └── banner.svg
-├── exports/
-├── logs/
-├── reports/
-├── sample_data/
-│   ├── sample_iocs.csv
-│   └── sample_iocs.txt
-├── tests/
-│   ├── test_cli.py
-│   ├── test_enrichment.py
-│   ├── test_scoring.py
-│   └── test_validator.py
-├── .gitignore
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
-├── SECURITY.md
-├── main.py
-└── requirements.txt
-```
+- analyzer/ – IOC validation, scoring, threat context, and enrichment logic
+- tests/ – Automated pytest test suite
+- sample_data/ – Example IOC datasets
+- assets/ – Documentation assets and project banner
+- .github/ – GitHub Actions CI/CD workflow
