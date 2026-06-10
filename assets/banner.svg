@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">IOC Analyzer Banner</title>
+  <desc id="desc">Repository banner for the IOC Analyzer cybersecurity project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081b29" />
+      <stop offset="50%" stop-color="#0f5b78" />
+      <stop offset="100%" stop-color="#5d8aa8" />
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8de7ff" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#8de7ff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#8de7ff" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bg)" rx="28" />
+  <circle cx="180" cy="78" r="120" fill="#ffffff" opacity="0.05" />
+  <circle cx="1040" cy="250" r="160" fill="#8de7ff" opacity="0.06" />
+  <g stroke="url(#line)" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M80 240h420l55-70h220l65-95h360" />
+    <path d="M140 120h200l45 45h200l40 40h220" opacity="0.5" />
+  </g>
+  <g fill="#8de7ff">
+    <circle cx="80" cy="240" r="6" />
+    <circle cx="500" cy="240" r="6" />
+    <circle cx="555" cy="170" r="6" />
+    <circle cx="775" cy="170" r="6" />
+    <circle cx="840" cy="75" r="6" />
+    <circle cx="1200" cy="75" r="6" />
+  </g>
+  <g font-family="Segoe UI, Tahoma, Geneva, Verdana, sans-serif">
+    <text x="80" y="110" fill="#ffffff" font-size="56" font-weight="700">IOC Analyzer</text>
+    <text x="82" y="154" fill="#c7eef9" font-size="22">Threat Intelligence Validation, Risk Scoring, and Executive Reporting</text>
+    <text x="82" y="202" fill="#d6eff7" font-size="18">Built for SOC analysts, threat hunters, students, and blue team engineers.</text>
+  </g>
+</svg>
